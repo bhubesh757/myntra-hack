@@ -1,0 +1,60 @@
+.cartchat {
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 250px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    overflow: hidden;
+    padding-top: 10px;
+    margin-top: 40px;
+    /* margin-bottom: 20px; */
+}
+
+.cartchat__image > img {
+    /* max-height: 200px; */
+    width: 250px;
+    height: 300px;
+   object-fit: fill;
+    margin-top: -10px;
+
+}
+
+.cartchat__image {
+    align-items: center;
+    justify-content: center;
+}
+
+.cartchat__title {
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    margin-left: 10px;
+}
+
+.cartchat__price  {
+    display: flex;
+    /* cursor: pointer; */
+    justify-content: space-around;
+    min-width: 8vw;
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cartchat__info {
+    align-items: center;
+    justify-content: inherit;
+}
+
+.chartcart__dis {
+    display: flex;
+}
+
+.cartchart__rating {
+    display: flex;
+    justify-content: center;
+    
+}
